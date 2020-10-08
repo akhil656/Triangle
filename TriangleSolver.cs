@@ -5,6 +5,7 @@ namespace Triangle1
 {
     public static class TriangleSolver
     {
+        //checking the formation of triangle
         public static int TriangleCheck(int a, int b, int c)
         {
             if (a + b <= c || b + c <= a || a + c <= b)
