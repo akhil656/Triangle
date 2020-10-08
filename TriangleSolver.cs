@@ -45,11 +45,11 @@ namespace Triangle1
 
         public static void Main(string[] args)
         {
-            int a, b, c;
+            
             Console.WriteLine("enter the lenghts of the sides");
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
-            c = Convert.ToInt32(Console.ReadLine());
+            int a = Convert.ToInt32(Console.ReadLine());
+            int  b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
             int formed=TriangleSolver.TriangleCheck(a, b, c);
             if (formed == 0)
             {
